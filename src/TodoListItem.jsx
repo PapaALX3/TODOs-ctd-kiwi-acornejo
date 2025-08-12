@@ -1,9 +1,9 @@
 function TodoListItem({todo}) {
     return (
         <li>
-            <h1>{todo}</h1>
-
+            {todo}
         </li>
     )
 }
+
 export default TodoListItem;
